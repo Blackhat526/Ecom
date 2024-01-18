@@ -1,8 +1,44 @@
 package Package1;
 import java.util.Scanner;
 public class Subcatagories {
-      
 	
+	public  int Quantity;
+	public  int ProdId;
+	public  String Name;
+	public  int Price;
+	
+	public  int getQuantity() {
+		return Quantity;
+	}
+
+	public  void setQuantity(int quantity) {
+		Quantity = quantity;
+	}
+
+	public  int getProdId() {
+		return ProdId;
+	}
+
+	public  void setProdId(int prodId) {
+		ProdId = prodId;
+	}
+
+	public  String getName() {
+		return Name;
+	}
+
+	public  void setName(String name) {
+		Name = name;
+	}
+
+	public  int getPrice() {
+		return Price;
+	}
+
+	public  void setPrice(int price) {
+		Price = price;
+	}
+
 	public static void Smartphones()
 	{
 		try {
@@ -22,19 +58,131 @@ public class Subcatagories {
 			{
 				case 101:
 					System.out.println("Please enter Quantity: ");
+					int qty101=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub101=new Subcatagories();
+					sub101.ProdId=101;
+					sub101.Name="iPhone 13";
+					sub101.Quantity=qty101;
+					sub101.Price=50000;
+					int ans101=scan.nextInt();
+					if(ans101==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub101);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub101);
+						Smartphones();
+					}
 					
 				break;
 				
 				case 102:
+					System.out.println("Please enter Quantity: ");
+					int qty102=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub102=new Subcatagories();
+					sub102.ProdId=102;
+					sub102.Name="Samsung S23";
+					sub102.Quantity=qty102;
+					sub102.Price=70000;
+					int ans102=scan.nextInt();
+					if(ans102==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub102);
+						
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub102);
+						
+						Smartphones();
+					}
 					break;
 					
 				case 103:
+					System.out.println("Please enter Quantity: ");
+					int qty103=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub103=new Subcatagories();
+					sub103.ProdId=103;
+					sub103.Name="Mi 10 pro";
+					sub103.Quantity=qty103;
+					sub103.Price=20000;
+					int ans103=scan.nextInt();
+					if(ans103==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub103);
+						
+					}
+					else
+					{
+						//Add to cart;
+						MainMenu.cart.add(sub103);
+						//MainMenu.counter++;
+						Smartphones();
+					}
 					break;
 					
 				case 104:
+					System.out.println("Please enter Quantity: ");
+					int qty104=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub104=new Subcatagories();
+					sub104.ProdId=104;
+					sub104.Name="Sony z flip";
+					sub104.Quantity=qty104;
+					sub104.Price=30000;
+					int ans104=scan.nextInt();
+					if(ans104==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub104);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub104);
+						Smartphones();
+					}
 					break;
 					
 				case 105:
+					System.out.println("Please enter Quantity: ");
+					int qty105=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub105=new Subcatagories();
+					sub105.ProdId=105;
+					sub105.Name="Google Pixel";
+					sub105.Quantity=qty105;
+					sub105.Price=75000;
+					int ans105=scan.nextInt();
+					if(ans105==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub105);
+					}
+					else
+					{
+						//Add to cart;
+						MainMenu.counter++;
+						MainMenu.cart.add(sub105);
+						Smartphones();
+					}
 					break;
 					
 				case 106:
@@ -71,19 +219,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 201:
-					
+					System.out.println("Please enter Quantity: ");
+					int qty201=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub201=new Subcatagories();
+					sub201.ProdId=201;
+					sub201.Name="Lenovo Thinkpad";
+					sub201.Quantity=qty201;
+					sub201.Price=40000;
+					int ans201=scan.nextInt();
+					if(ans201==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub201);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub201);
+						Laptops();
+					}
 				break;
 				
 				case 202:
+					System.out.println("Please enter Quantity: ");
+					int qty202=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub202=new Subcatagories();
+					sub202.ProdId=202;
+					sub202.Name="MSI Gaming";
+					sub202.Quantity=qty202;
+					sub202.Price=60000;
+					int ans202=scan.nextInt();
+					if(ans202==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub202);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub202);
+						Laptops();
+					}
 					break;
 					
 				case 203:
+					System.out.println("Please enter Quantity: ");
+					int qty203=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub203=new Subcatagories();
+					sub203.ProdId=203;
+					sub203.Name="Dell Gaming";
+					sub203.Quantity=qty203;
+					sub203.Price=70000;
+					int ans203=scan.nextInt();
+					if(ans203==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub203);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub203);
+						Laptops();
+					}
 					break;
 					
 				case 204:
+					System.out.println("Please enter Quantity: ");
+					int qty204=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub204=new Subcatagories();
+					sub204.ProdId=204;
+					sub204.Name="Asus Gaming";
+					sub204.Quantity=qty204;
+					sub204.Price=50000;
+					int ans204=scan.nextInt();
+					if(ans204==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub204);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub204);
+						Laptops();
+					}
 					break;
 					
 				case 205:
+					System.out.println("Please enter Quantity: ");
+					int qty205=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub205=new Subcatagories();
+					sub205.ProdId=205;
+					sub205.Name="Hp Gaming";
+					sub205.Quantity=qty205;
+					sub205.Price=75000;
+					int ans205=scan.nextInt();
+					if(ans205==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub205);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub205);
+						Laptops();
+					}
 					break;
 					
 				case 206:
