@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class MainMenu {
 	
-	public static int price;
-	public static int quantity;
 	Subcatagories sub= new Subcatagories();
 	public static int counter=0;
 	public static ArrayList<Subcatagories> cart=new ArrayList<Subcatagories>();
@@ -70,16 +68,19 @@ public class MainMenu {
 	
     public static void viewcart()
     {
+    	int Slno=1;
     	try {
     		Scanner scan=new Scanner(System.in);
-    		System.out.println("<<<<<===================Cart========================>>>>>");
-    		System.out.println("Prod.Code         Name             Price         Quantity");
-    		System.out.println("---------------------------------------------------------");
+    		System.out.println("<<<<<================================Cart===========================>>>>>");
+    		System.out.println("SlNo            Prod.Code         Name             Price         Quantity");
+    		System.out.println("-------------------------------------------------------------------------");
     		for(int i=0;i<cart.size();i++)
     		{
     			Subcatagories s = cart.get(i);
-    			System.out.println(s.getProdId()+"           "+s.getName()+"            "+s.getPrice()+"          "+s.getQuantity());
+    			System.out.println(Slno+"          "+s.getProdId()+"           "+s.getName()+"            "+s.getPrice()+"          "+s.getQuantity());
+    			Slno++;
     		}
+    		System.out.println("-------------------------------------------------------------------------");
     		System.out.println("1.Confirm order                   2.Remove Items");
     		int ans=scan.nextInt();
     		if(ans==1)
@@ -88,8 +89,11 @@ public class MainMenu {
     		}
     		else
     		{
-    			System.out.println("Enter the Product Id of the item to be removed");
-    			//cart.remove()
+    			System.out.println("Enter the Slno of the item to be removed");
+    			int slno=scan.nextInt();
+    			cart.remove(slno-1);
+    			Slno=1;
+    			viewcart();
     		}
     	}
     	catch(Exception ex)
