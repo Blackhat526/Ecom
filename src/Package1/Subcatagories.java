@@ -2254,11 +2254,33 @@ public class Subcatagories {
 						//Add to cart;
 						//MainMenu.counter++;
 						MainMenu.cart.add(sub1601);
-						Shirts();
+						Addidas();
 					}
 				break;
 				
 				case 1602:
+					System.out.println("Please enter Quantity: ");
+					int qty1602=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1602=new Subcatagories();
+					sub1602.ProdId=1602;
+					sub1602.Name="Addidas X1";
+					sub1602.Quantity=qty1602;
+					sub1602.Price=1799;
+					int ans1602=scan.nextInt();
+					if(ans1602==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1602);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1602);
+						Addidas();
+					}
 					break;
 					
 				case 1603:
