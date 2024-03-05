@@ -1989,7 +1989,6 @@ public class Subcatagories {
 					int ans1301=scan.nextInt();
 					if(ans1301==1)
 					{
-						
 						//printbill;
 						MainMenu.purchasebill(sub1301);
 					}
@@ -2014,7 +2013,6 @@ public class Subcatagories {
 					int ans1302=scan.nextInt();
 					if(ans1302==1)
 					{
-						
 						//printbill;
 						MainMenu.purchasebill(sub1302);
 					}
@@ -2137,19 +2135,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 1401:
-					
+					System.out.println("Please enter Quantity: ");
+					int qty1401=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1401=new Subcatagories();
+					sub1401.ProdId=1401;
+					sub1401.Name="Blackberrys";
+					sub1401.Quantity=qty1401;
+					sub1401.Price=799;
+					int ans1401=scan.nextInt();
+					if(ans1401==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1401);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1401);
+						Formals();
+					}
 				break;
 				
 				case 1402:
+					System.out.println("Please enter Quantity: ");
+					int qty1402=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1402=new Subcatagories();
+					sub1402.ProdId=1402;
+					sub1402.Name="Manyavar";
+					sub1402.Quantity=qty1402;
+					sub1402.Price=599;
+					int ans1402=scan.nextInt();
+					if(ans1402==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1402);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1402);
+						Formals();
+					}
 					break;
 					
 				case 1403:
+					System.out.println("Please enter Quantity: ");
+					int qty1403=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1403=new Subcatagories();
+					sub1403.ProdId=1403;
+					sub1403.Name="Levis";
+					sub1403.Quantity=qty1403;
+					sub1403.Price=1200;
+					int ans1403=scan.nextInt();
+					if(ans1403==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1403);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1403);
+						Formals();
+					}
 					break;
 					
 				case 1404:
+					System.out.println("Please enter Quantity: ");
+					int qty1404=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1404=new Subcatagories();
+					sub1404.ProdId=1404;
+					sub1404.Name="Arrow";
+					sub1404.Quantity=qty1404;
+					sub1404.Price=1200;
+					int ans1404=scan.nextInt();
+					if(ans1404==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1404);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1404);
+						Formals();
+					}
 					break;
 					
 				case 1405:
+					System.out.println("Please enter Quantity: ");
+					int qty1405=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1405=new Subcatagories();
+					sub1405.ProdId=1405;
+					sub1405.Name="Levis";
+					sub1405.Quantity=qty1405;
+					sub1405.Price=1200;
+					int ans1405=scan.nextInt();
+					if(ans1405==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1405);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1405);
+						Formals();
+					}
 					break;
 					
 				case 1406:
@@ -2186,18 +2293,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 1501:
+					System.out.println("Please enter Quantity: ");
+					int qty1501=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1501=new Subcatagories();
+					sub1501.ProdId=1501;
+					sub1501.Name="Addidas";
+					sub1501.Quantity=qty1501;
+					sub1501.Price=799;
+					int ans1501=scan.nextInt();
+					if(ans1501==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1501);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1501);
+						Shorts();
+					}
 				break;
 				
 				case 1502:
+					System.out.println("Please enter Quantity: ");
+					int qty1502=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1502=new Subcatagories();
+					sub1502.ProdId=1502;
+					sub1502.Name="Nike";
+					sub1502.Quantity=qty1502;
+					sub1502.Price=599;
+					int ans1502=scan.nextInt();
+					if(ans1502==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1502);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1502);
+						Shorts();
+					}
 					break;
 					
 				case 1503:
+					System.out.println("Please enter Quantity: ");
+					int qty1503=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1503=new Subcatagories();
+					sub1503.ProdId=1503;
+					sub1503.Name="Puma";
+					sub1503.Quantity=qty1503;
+					sub1503.Price=1200;
+					int ans1503=scan.nextInt();
+					if(ans1503==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1503);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1503);
+						Shorts();
+					}
 					break;
 					
 				case 1504:
+					System.out.println("Please enter Quantity: ");
+					int qty1504=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1504=new Subcatagories();
+					sub1504.ProdId=1504;
+					sub1504.Name="Umbro";
+					sub1504.Quantity=qty1504;
+					sub1504.Price=1299;
+					int ans1504=scan.nextInt();
+					if(ans1504==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1504);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1504);
+						Shorts();
+					}
 					break;
 					
 				case 1505:
+					System.out.println("Please enter Quantity: ");
+					int qty1505=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1505=new Subcatagories();
+					sub1505.ProdId=1505;
+					sub1505.Name="Castore";
+					sub1505.Quantity=qty1505;
+					sub1505.Price=1399;
+					int ans1505=scan.nextInt();
+					if(ans1505==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1505);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1505);
+						Shorts();
+					}
 					break;
 					
 				case 1506:
@@ -2264,9 +2481,9 @@ public class Subcatagories {
 					System.out.println("1.Purchase                2.Add to cart");
 					Subcatagories sub1602=new Subcatagories();
 					sub1602.ProdId=1602;
-					sub1602.Name="Addidas X1";
+					sub1602.Name="Addidas Zoom";
 					sub1602.Quantity=qty1602;
-					sub1602.Price=1799;
+					sub1602.Price=2599;
 					int ans1602=scan.nextInt();
 					if(ans1602==1)
 					{
@@ -2284,12 +2501,78 @@ public class Subcatagories {
 					break;
 					
 				case 1603:
+					System.out.println("Please enter Quantity: ");
+					int qty1603=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1603=new Subcatagories();
+					sub1603.ProdId=1603;
+					sub1603.Name="Addidas Level";
+					sub1603.Quantity=qty1603;
+					sub1603.Price=1200;
+					int ans1603=scan.nextInt();
+					if(ans1603==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1603);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1603);
+						Addidas();
+					}
 					break;
 					
 				case 1604:
+					System.out.println("Please enter Quantity: ");
+					int qty1604=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1604=new Subcatagories();
+					sub1604.ProdId=1604;
+					sub1604.Name="Addidas Smooth";
+					sub1604.Quantity=qty1604;
+					sub1604.Price=1399;
+					int ans1604=scan.nextInt();
+					if(ans1604==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1604);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1604);
+						Addidas();
+					}
 					break;
 					
 				case 1605:
+					System.out.println("Please enter Quantity: ");
+					int qty1605=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1605=new Subcatagories();
+					sub1605.ProdId=1605;
+					sub1605.Name="Addidas Running";
+					sub1605.Quantity=qty1605;
+					sub1605.Price=1399;
+					int ans1605=scan.nextInt();
+					if(ans1605==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1605);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1605);
+						Addidas();
+					}
 					break;
 					
 				case 1606:
@@ -2326,18 +2609,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 1701:
+					System.out.println("Please enter Quantity: ");
+					int qty1701=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1701=new Subcatagories();
+					sub1701.ProdId=1701;
+					sub1701.Name="Nike X1";
+					sub1701.Quantity=qty1701;
+					sub1701.Price=1799;
+					int ans1701=scan.nextInt();
+					if(ans1701==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1701);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1701);
+						Nike();
+					}
 				break;
 				
 				case 1702:
+					System.out.println("Please enter Quantity: ");
+					int qty1702=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1702=new Subcatagories();
+					sub1702.ProdId=1702;
+					sub1702.Name="Nike Zoom";
+					sub1702.Quantity=qty1702;
+					sub1702.Price=2599;
+					int ans1702=scan.nextInt();
+					if(ans1702==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1702);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1702);
+						Nike();
+					}
 					break;
 					
 				case 1703:
+					System.out.println("Please enter Quantity: ");
+					int qty1703=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1703=new Subcatagories();
+					sub1703.ProdId=1703;
+					sub1703.Name="Nike Level";
+					sub1703.Quantity=qty1703;
+					sub1703.Price=1200;
+					int ans1703=scan.nextInt();
+					if(ans1703==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1703);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1703);
+						Nike();
+					}
 					break;
 					
 				case 1704:
+					System.out.println("Please enter Quantity: ");
+					int qty1704=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1704=new Subcatagories();
+					sub1704.ProdId=1704;
+					sub1704.Name="Nike Smooth";
+					sub1704.Quantity=qty1704;
+					sub1704.Price=1399;
+					int ans1704=scan.nextInt();
+					if(ans1704==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1704);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1704);
+						Nike();
+					}
 					break;
 					
 				case 1705:
+					System.out.println("Please enter Quantity: ");
+					int qty1705=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1705=new Subcatagories();
+					sub1705.ProdId=1705;
+					sub1705.Name="Nike Running";
+					sub1705.Quantity=qty1705;
+					sub1705.Price=1099;
+					int ans1705=scan.nextInt();
+					if(ans1705==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1705);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1705);
+						Nike();
+					}
 					break;
 					
 				case 1706:
@@ -2374,18 +2767,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 1801:
+					System.out.println("Please enter Quantity: ");
+					int qty1801=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1801=new Subcatagories();
+					sub1801.ProdId=1801;
+					sub1801.Name="Puma X1";
+					sub1801.Quantity=qty1801;
+					sub1801.Price=1799;
+					int ans1801=scan.nextInt();
+					if(ans1801==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1801);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1801);
+						Puma();
+					}
 				break;
 				
 				case 1802:
+					System.out.println("Please enter Quantity: ");
+					int qty1802=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1802=new Subcatagories();
+					sub1802.ProdId=1802;
+					sub1802.Name="Puma Zoom";
+					sub1802.Quantity=qty1802;
+					sub1802.Price=2599;
+					int ans1802=scan.nextInt();
+					if(ans1802==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1802);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1802);
+						Puma();
+					}
 					break;
 					
 				case 1803:
+					System.out.println("Please enter Quantity: ");
+					int qty1803=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1803=new Subcatagories();
+					sub1803.ProdId=1803;
+					sub1803.Name="Puma level";
+					sub1803.Quantity=qty1803;
+					sub1803.Price=1200;
+					int ans1803=scan.nextInt();
+					if(ans1803==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1803);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1803);
+						Puma();
+					}
 					break;
 					
 				case 1804:
+					System.out.println("Please enter Quantity: ");
+					int qty1804=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1804=new Subcatagories();
+					sub1804.ProdId=1804;
+					sub1804.Name="Puma smooth";
+					sub1804.Quantity=qty1804;
+					sub1804.Price=1399;
+					int ans1804=scan.nextInt();
+					if(ans1804==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1804);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1804);
+						Puma();
+					}
 					break;
 					
 				case 1805:
+					System.out.println("Please enter Quantity: ");
+					int qty1805=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1805=new Subcatagories();
+					sub1805.ProdId=1805;
+					sub1805.Name="Puma Running";
+					sub1805.Quantity=qty1805;
+					sub1805.Price=1099;
+					int ans1805=scan.nextInt();
+					if(ans1805==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1805);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1805);
+						Puma();
+					}
 					break;
 					
 				case 1806:
@@ -2422,18 +2925,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 1901:
+					System.out.println("Please enter Quantity: ");
+					int qty1901=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1901=new Subcatagories();
+					sub1901.ProdId=1901;
+					sub1901.Name="NewBalance X1";
+					sub1901.Quantity=qty1901;
+					sub1901.Price=1799;
+					int ans1901=scan.nextInt();
+					if(ans1901==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1901);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1901);
+						NewBalance();
+					}
 				break;
 				
 				case 1902:
+					System.out.println("Please enter Quantity: ");
+					int qty1902=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1902=new Subcatagories();
+					sub1902.ProdId=1902;
+					sub1902.Name="NewBalance Zoom";
+					sub1902.Quantity=qty1902;
+					sub1902.Price=2599;
+					int ans1902=scan.nextInt();
+					if(ans1902==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1902);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1902);
+						NewBalance();
+					}
 					break;
 					
 				case 1903:
+					System.out.println("Please enter Quantity: ");
+					int qty1903=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1903=new Subcatagories();
+					sub1903.ProdId=1903;
+					sub1903.Name="NewBalance level";
+					sub1903.Quantity=qty1903;
+					sub1903.Price=1200;
+					int ans1903=scan.nextInt();
+					if(ans1903==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1903);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1903);
+						NewBalance();
+					}
 					break;
 					
 				case 1904:
+					System.out.println("Please enter Quantity: ");
+					int qty1904=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1904=new Subcatagories();
+					sub1904.ProdId=1904;
+					sub1904.Name="NewBalance Smooth";
+					sub1904.Quantity=qty1904;
+					sub1904.Price=1399;
+					int ans1904=scan.nextInt();
+					if(ans1904==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1904);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1904);
+						NewBalance();
+					}
 					break;
 					
 				case 1905:
+					System.out.println("Please enter Quantity: ");
+					int qty1905=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub1905=new Subcatagories();
+					sub1905.ProdId=1905;
+					sub1905.Name="NewBalance Running";
+					sub1905.Quantity=qty1905;
+					sub1905.Price=1099;
+					int ans1905=scan.nextInt();
+					if(ans1905==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub1905);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub1905);
+						NewBalance();
+					}
 					break;
 					
 				case 1906:
@@ -2470,18 +3083,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 2001:
+					System.out.println("Please enter Quantity: ");
+					int qty2001=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2001=new Subcatagories();
+					sub2001.ProdId=2001;
+					sub2001.Name="UnderArmour X1";
+					sub2001.Quantity=qty2001;
+					sub2001.Price=1799;
+					int ans2001=scan.nextInt();
+					if(ans2001==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2001);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2001);
+						UnderArmour();
+					}
 				break;
 				
 				case 2002:
+					System.out.println("Please enter Quantity: ");
+					int qty2002=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2002=new Subcatagories();
+					sub2002.ProdId=2002;
+					sub2002.Name="UnderArmour Zoom";
+					sub2002.Quantity=qty2002;
+					sub2002.Price=2599;
+					int ans2002=scan.nextInt();
+					if(ans2002==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2002);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2002);
+						UnderArmour();
+					}
 					break;
 					
 				case 2003:
+					System.out.println("Please enter Quantity: ");
+					int qty2003=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2003=new Subcatagories();
+					sub2003.ProdId=2003;
+					sub2003.Name="UnderArmour Level";
+					sub2003.Quantity=qty2003;
+					sub2003.Price=1200;
+					int ans2003=scan.nextInt();
+					if(ans2003==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2003);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2003);
+						UnderArmour();
+					}
 					break;
 					
 				case 2004:
+					System.out.println("Please enter Quantity: ");
+					int qty2004=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2004=new Subcatagories();
+					sub2004.ProdId=2004;
+					sub2004.Name="UnderArmour Smooth";
+					sub2004.Quantity=qty2004;
+					sub2004.Price=1399;
+					int ans2004=scan.nextInt();
+					if(ans2004==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2004);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2004);
+						UnderArmour();
+					}
 					break;
 					
 				case 2005:
+					System.out.println("Please enter Quantity: ");
+					int qty2005=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2005=new Subcatagories();
+					sub2005.ProdId=2005;
+					sub2005.Name="UnderArmour Running";
+					sub2005.Quantity=qty2005;
+					sub2005.Price=1099;
+					int ans2005=scan.nextInt();
+					if(ans2005==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2005);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2005);
+						UnderArmour();
+					}
 					break;
 					
 				case 2006:
@@ -2518,18 +3241,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 2101:
+					System.out.println("Please enter Quantity: ");
+					int qty2101=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2101=new Subcatagories();
+					sub2101.ProdId=2101;
+					sub2101.Name="Firefox X1";
+					sub2101.Quantity=qty2101;
+					sub2101.Price=17990;
+					int ans2101=scan.nextInt();
+					if(ans2101==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2101);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2101);
+						Cycles();
+					}
 				break;
 				
 				case 2102:
+					System.out.println("Please enter Quantity: ");
+					int qty2102=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2102=new Subcatagories();
+					sub2102.ProdId=2102;
+					sub2102.Name="Hercules Zoom";
+					sub2102.Quantity=qty2102;
+					sub2102.Price=25990;
+					int ans2102=scan.nextInt();
+					if(ans2102==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2102);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2102);
+						Cycles();
+					}
 					break;
 					
 				case 2103:
+					System.out.println("Please enter Quantity: ");
+					int qty2103=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2103=new Subcatagories();
+					sub2103.ProdId=2103;
+					sub2103.Name="Hero Level";
+					sub2103.Quantity=qty2103;
+					sub2103.Price=12000;
+					int ans2103=scan.nextInt();
+					if(ans2103==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2103);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2103);
+						Cycles();
+					}
 					break;
 					
 				case 2104:
+					System.out.println("Please enter Quantity: ");
+					int qty2104=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2104=new Subcatagories();
+					sub2104.ProdId=2104;
+					sub2104.Name="Trek smooth";
+					sub2104.Quantity=qty2104;
+					sub2104.Price=13990;
+					int ans2104=scan.nextInt();
+					if(ans2104==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2104);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2104);
+						Cycles();
+					}
 					break;
 					
 				case 2105:
+					System.out.println("Please enter Quantity: ");
+					int qty2105=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2105=new Subcatagories();
+					sub2105.ProdId=2105;
+					sub2105.Name="Bwin";
+					sub2105.Quantity=qty2105;
+					sub2105.Price=10990;
+					int ans2105=scan.nextInt();
+					if(ans2105==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2105);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2105);
+						Cycles();
+					}
 					break;
 					
 				case 2106:
@@ -2566,18 +3399,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 2201:
+					System.out.println("Please enter Quantity: ");
+					int qty2201=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2201=new Subcatagories();
+					sub2201.ProdId=2201;
+					sub2201.Name="PS 1";
+					sub2201.Quantity=qty2201;
+					sub2201.Price=17990;
+					int ans2201=scan.nextInt();
+					if(ans2201==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2201);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2201);
+						PS();
+					}
 				break;
 				
 				case 2202:
+					System.out.println("Please enter Quantity: ");
+					int qty2202=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2202=new Subcatagories();
+					sub2202.ProdId=2202;
+					sub2202.Name="PS 2";
+					sub2202.Quantity=qty2202;
+					sub2202.Price=25990;
+					int ans2202=scan.nextInt();
+					if(ans2202==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2202);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2202);
+						PS();
+					}
 					break;
 					
 				case 2203:
+					System.out.println("Please enter Quantity: ");
+					int qty2203=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2203=new Subcatagories();
+					sub2203.ProdId=2203;
+					sub2203.Name="PS 3";
+					sub2203.Quantity=qty2203;
+					sub2203.Price=12000;
+					int ans2203=scan.nextInt();
+					if(ans2203==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2203);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2203);
+						PS();
+					}
 					break;
 					
 				case 2204:
+					System.out.println("Please enter Quantity: ");
+					int qty2204=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2204=new Subcatagories();
+					sub2204.ProdId=2204;
+					sub2204.Name="PS 4";
+					sub2204.Quantity=qty2204;
+					sub2204.Price=13990;
+					int ans2204=scan.nextInt();
+					if(ans2204==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2204);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2204);
+						PS();
+					}
 					break;
 					
 				case 2205:
+					System.out.println("Please enter Quantity: ");
+					int qty2205=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2205=new Subcatagories();
+					sub2205.ProdId=2205;
+					sub2205.Name="PS 5";
+					sub2205.Quantity=qty2205;
+					sub2205.Price=10990;
+					int ans2205=scan.nextInt();
+					if(ans2205==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2205);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2205);
+						PS();
+					}
 					break;
 					
 				case 2206:
@@ -2614,18 +3557,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 2301:
+					System.out.println("Please enter Quantity: ");
+					int qty2301=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2301=new Subcatagories();
+					sub2301.ProdId=2301;
+					sub2301.Name="Bmw";
+					sub2301.Quantity=qty2301;
+					sub2301.Price=1799;
+					int ans2301=scan.nextInt();
+					if(ans2301==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2301);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2301);
+						Toycars();
+					}
 				break;
 				
 				case 2302:
+					System.out.println("Please enter Quantity: ");
+					int qty2302=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2302=new Subcatagories();
+					sub2302.ProdId=2302;
+					sub2302.Name="Audi";
+					sub2302.Quantity=qty2302;
+					sub2302.Price=2599;
+					int ans2302=scan.nextInt();
+					if(ans2302==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2302);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2302);
+						Toycars();
+					}
 					break;
 					
 				case 2303:
+					System.out.println("Please enter Quantity: ");
+					int qty2303=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2303=new Subcatagories();
+					sub2303.ProdId=2303;
+					sub2303.Name="Porsche";
+					sub2303.Quantity=qty2303;
+					sub2303.Price=1200;
+					int ans2303=scan.nextInt();
+					if(ans2303==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2303);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2303);
+						Toycars();
+					}
 					break;
 					
 				case 2304:
+					System.out.println("Please enter Quantity: ");
+					int qty2304=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2304=new Subcatagories();
+					sub2304.ProdId=2304;
+					sub2304.Name="Mercedes";
+					sub2304.Quantity=qty2304;
+					sub2304.Price=1399;
+					int ans2304=scan.nextInt();
+					if(ans2304==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2304);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2304);
+						Toycars();
+					}
 					break;
 					
 				case 2305:
+					System.out.println("Please enter Quantity: ");
+					int qty2305=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2305=new Subcatagories();
+					sub2305.ProdId=2305;
+					sub2305.Name="Honda";
+					sub2305.Quantity=qty2305;
+					sub2305.Price=1099;
+					int ans2305=scan.nextInt();
+					if(ans2305==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2305);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2305);
+						Toycars();
+					}
 					break;
 					
 				case 2306:
@@ -2648,7 +3701,7 @@ public class Subcatagories {
     {
     	try {
 			Scanner scan = new Scanner(System.in);
-			System.out.println("<<<<--------------------------- DryFruits---------------------->>>>");
+			System.out.println("<<<<--------------------------- ColorPens---------------------->>>>");
 			System.out.println("Prod.Code      Name             Description                  Price ");
 			System.out.println("*******************************************************************");
 			System.out.println("2401           Fibre Castle                          		 170/- ");
@@ -2662,18 +3715,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 2401:
+					System.out.println("Please enter Quantity: ");
+					int qty2401=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2401=new Subcatagories();
+					sub2401.ProdId=2401;
+					sub2401.Name="Fibre Castle";
+					sub2401.Quantity=qty2401;
+					sub2401.Price=170;
+					int ans2401=scan.nextInt();
+					if(ans2401==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2401);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2401);
+						ColorPens();
+					}
 				break;
 				
 				case 2402:
+					System.out.println("Please enter Quantity: ");
+					int qty2402=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2402=new Subcatagories();
+					sub2402.ProdId=2402;
+					sub2402.Name="Apsara";
+					sub2402.Quantity=qty2402;
+					sub2402.Price=250;
+					int ans2402=scan.nextInt();
+					if(ans2402==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2402);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2402);
+						ColorPens();
+					}
 					break;
 					
 				case 2403:
+					System.out.println("Please enter Quantity: ");
+					int qty2403=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2403=new Subcatagories();
+					sub2403.ProdId=2403;
+					sub2403.Name="Natraj";
+					sub2403.Quantity=qty2403;
+					sub2403.Price=120;
+					int ans2403=scan.nextInt();
+					if(ans2403==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2403);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2403);
+						ColorPens();
+					}
 					break;
 					
 				case 2404:
+					System.out.println("Please enter Quantity: ");
+					int qty2404=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2404=new Subcatagories();
+					sub2404.ProdId=2404;
+					sub2404.Name="Renoylds";
+					sub2404.Quantity=qty2404;
+					sub2404.Price=100;
+					int ans2404=scan.nextInt();
+					if(ans2404==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2404);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2404);
+						ColorPens();
+					}
 					break;
 					
 				case 2405:
+					System.out.println("Please enter Quantity: ");
+					int qty2405=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2405=new Subcatagories();
+					sub2405.ProdId=2405;
+					sub2405.Name="Boylds";
+					sub2405.Quantity=qty2405;
+					sub2405.Price=100;
+					int ans2405=scan.nextInt();
+					if(ans2405==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2405);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2405);
+						ColorPens();
+					}
 					break;
 					
 				case 2406:
@@ -2710,18 +3873,128 @@ public class Subcatagories {
 			switch(ans)
 			{
 				case 2501:
+					System.out.println("Please enter Quantity: ");
+					int qty2501=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2501=new Subcatagories();
+					sub2501.ProdId=2501;
+					sub2501.Name="Classmate";
+					sub2501.Quantity=qty2501;
+					sub2501.Price=170;
+					int ans2501=scan.nextInt();
+					if(ans2501==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2501);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2501);
+						DrawingBooks();
+					}
 				break;
 				
 				case 2502:
+					System.out.println("Please enter Quantity: ");
+					int qty2502=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2502=new Subcatagories();
+					sub2502.ProdId=2502;
+					sub2502.Name="Natraj";
+					sub2502.Quantity=qty2502;
+					sub2502.Price=250;
+					int ans2502=scan.nextInt();
+					if(ans2502==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2502);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2502);
+						DrawingBooks();
+					}
 					break;
 					
 				case 2503:
+					System.out.println("Please enter Quantity: ");
+					int qty2503=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2503=new Subcatagories();
+					sub2503.ProdId=2503;
+					sub2503.Name="Apsara";
+					sub2503.Quantity=qty2503;
+					sub2503.Price=120;
+					int ans2503=scan.nextInt();
+					if(ans2503==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2503);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2503);
+						DrawingBooks();
+					}
 					break;
 					
 				case 2504:
+					System.out.println("Please enter Quantity: ");
+					int qty2504=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2504=new Subcatagories();
+					sub2504.ProdId=2504;
+					sub2504.Name="ITC";
+					sub2504.Quantity=qty2504;
+					sub2504.Price=130;
+					int ans2504=scan.nextInt();
+					if(ans2504==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2504);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2504);
+						DrawingBooks();
+					}
 					break;
 					
 				case 2505:
+					System.out.println("Please enter Quantity: ");
+					int qty2505=scan.nextInt();
+					System.out.println("1.Purchase                2.Add to cart");
+					Subcatagories sub2505=new Subcatagories();
+					sub2505.ProdId=2505;
+					sub2505.Name="Renoylds";
+					sub2505.Quantity=qty2505;
+					sub2505.Price=100;
+					int ans2505=scan.nextInt();
+					if(ans2505==1)
+					{
+						
+						//printbill;
+						MainMenu.purchasebill(sub2505);
+					}
+					else
+					{
+						//Add to cart;
+						//MainMenu.counter++;
+						MainMenu.cart.add(sub2505);
+						DrawingBooks();
+					}
 					break;
 					
 				case 2506:
